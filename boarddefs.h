@@ -182,7 +182,7 @@
 #elif defined(__AVR_ATtiny85__)
 	#define IR_USE_TIMER_TINY0   // tx = pin 1
 
-#elif defined(__AVR_ATtiny167__) || defined(__AVR_ATtiny87__) // added by me - 3/6/20
+#elif defined(__AVR_ATtiny167__) || defined(__AVR_ATtiny87__)
 	#define IR_USE_TIMER_TINY1   // tx = pin 1
 
 #elif defined(ESP32)
