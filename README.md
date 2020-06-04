@@ -30,7 +30,7 @@ Whether you use the Adafruit Neopixel lib, or FastLED, interrupts get disabled o
 - ATmega8, 48, 88, 168, 328
 - ATmega8535, 16, 32, 164, 324, 644, 1284,
 - ATmega64, 128
-- ATtiny 84 / 85
+- ATtiny 84 / 85 / 87 / 167
 - ESP32 (receive only)
 - ESP8266 is supported in a fork based on an old codebase that isn't as recent, but it works reasonably well given that perfectly timed sub millisecond interrupts are different on that chip. See https://github.com/markszabo/IRremoteESP8266
 - Sparkfun Pro Micro
